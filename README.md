@@ -11,12 +11,12 @@ You can use the Desktop App if you feel more comfortable with it, but you might 
 
 
 # Before you push/pull, do not: 
-1. Have Unity open. It will give you an error-message.v Shut off Unity and it will work awesomely.
+1. Have Unity open. It will give you an error-message. Shut off Unity and it will work awesomely.
 2. Push any metadata. We have limited space on GitHub and if too much space is consumed git will get wonky.
 3. Pull if you have made changes, it will whine. Try in that case to look over your changes and remove 
 
 # Golden Rules
-Alwaus remember to: 
+Always remember to: 
 
 - Pull, when you start your day. You're gonna have to look and see if any of your fellow programmers made some changes that you're gonna need.
 - Add, when you've made changes so that you can store those and push (especially important if you're using the terminal).
