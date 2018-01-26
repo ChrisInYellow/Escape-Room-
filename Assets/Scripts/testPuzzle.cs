@@ -18,7 +18,7 @@ public class testPuzzle : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other == correctCube)
+        if (other.gameObject == correctCube)
         {
             cubeChecker = true;
         }
