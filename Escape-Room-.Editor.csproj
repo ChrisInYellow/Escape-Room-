@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{36B9C48C-00E7-6FD4-1662-4751C6D9001B}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>Assembly-CSharp-Editor.dll</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
@@ -259,32 +259,32 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
-      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
-      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/Hugo B Cremer/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Trustred/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Hugo B Cremer/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Trustred/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/Hugo B Cremer/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+      <HintPath>C:/Users/Trustred/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Analytics">
-      <HintPath>C:/Users/Hugo B Cremer/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+      <HintPath>C:/Users/Trustred/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/Hugo B Cremer/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/Trustred/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Hugo B Cremer/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/Trustred/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
-      <HintPath>C:/Users/Hugo B Cremer/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Trustred/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
+      <HintPath>Assets/ImportedAssets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
+      <HintPath>Assets/ImportedAssets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -294,66 +294,66 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\VRSetup\SteamVR\Editor\SteamVR_Editor.cs" />
-    <Compile Include="Assets\VRSetup\SteamVR\Editor\SteamVR_Preferences.cs" />
-    <Compile Include="Assets\VRSetup\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
-    <Compile Include="Assets\VRSetup\SteamVR\Editor\SteamVR_Settings.cs" />
-    <Compile Include="Assets\VRSetup\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
-    <Compile Include="Assets\VRSetup\SteamVR\Editor\SteamVR_Update.cs" />
-    <Compile Include="Assets\VRSetup\VRTK\Editor\VRTK_AdaptiveQualityEditor.cs" />
-    <Compile Include="Assets\VRSetup\VRTK\Editor\VRTK_EditorUtilities.cs" />
-    <Compile Include="Assets\VRSetup\VRTK\Editor\VRTK_InteractHapticsEditor.cs" />
-    <Compile Include="Assets\VRSetup\VRTK\Editor\VRTK_ObjectSetup.cs" />
-    <Compile Include="Assets\VRSetup\VRTK\Editor\VRTK_PolicyListEditor.cs" />
-    <Compile Include="Assets\VRSetup\VRTK\Editor\VRTK_RadialMenuEditor.cs" />
-    <Compile Include="Assets\VRSetup\VRTK\Editor\VRTK_SDKManagerEditor.cs" />
-    <Compile Include="Assets\VRSetup\VRTK\Editor\VRTK_SDKSetupEditor.cs" />
-    <Compile Include="Assets\VRSetup\VRTK\Editor\VRTK_SupportInfoWindow.cs" />
-    <Compile Include="Assets\VRSetup\VRTK\Editor\VRTK_UpdatePrompt.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\SteamVR\Editor\SteamVR_Editor.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\SteamVR\Editor\SteamVR_Preferences.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\SteamVR\Editor\SteamVR_Settings.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\SteamVR\Editor\SteamVR_Update.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\Editor\VRTK_AdaptiveQualityEditor.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\Editor\VRTK_EditorUtilities.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\Editor\VRTK_InteractHapticsEditor.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\Editor\VRTK_ObjectSetup.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\Editor\VRTK_PolicyListEditor.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\Editor\VRTK_RadialMenuEditor.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\Editor\VRTK_SDKManagerEditor.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\Editor\VRTK_SDKSetupEditor.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\Editor\VRTK_SupportInfoWindow.cs" />
+    <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\Editor\VRTK_UpdatePrompt.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
-    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\VRSetup\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
-    <None Include="Assets\VRSetup\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
-    <None Include="Assets\VRSetup\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
-    <None Include="Assets\VRSetup\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
-    <None Include="Assets\VRSetup\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
-    <None Include="Assets\VRSetup\SteamVR\Resources\SteamVR_AlphaOut.shader" />
-    <None Include="Assets\VRSetup\SteamVR\Resources\SteamVR_ClearAll.shader" />
-    <None Include="Assets\VRSetup\SteamVR\Resources\SteamVR_ColorOut.shader" />
-    <None Include="Assets\VRSetup\SteamVR\Resources\SteamVR_Fade.shader" />
-    <None Include="Assets\VRSetup\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
-    <None Include="Assets\VRSetup\SteamVR\readme.txt" />
-    <None Include="Assets\VRSetup\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
-    <None Include="Assets\VRSetup\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
-    <None Include="Assets\VRSetup\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
-    <None Include="Assets\VRSetup\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
-    <None Include="Assets\VRSetup\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
-    <None Include="Assets\VRSetup\Vive-Teleporter\LICENSE.txt" />
-    <None Include="Assets\VRSetup\Vive-Teleporter\README.txt" />
-    <None Include="Assets\VRSetup\Vive-Teleporter\Shader\FadeBlack.shader" />
-    <None Include="Assets\VRSetup\Vive-Teleporter\Shader\TransparentNoOverlap.shader" />
-    <None Include="Assets\VRSetup\Vive-Teleporter\Shader\ViveMovementBorder.shader" />
-    <None Include="Assets\VRSetup\Vive-Teleporter\Shader\ViveMovementGrid.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\ImportedAssets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\Resources\SteamVR_ClearAll.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\Resources\SteamVR_ColorOut.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\Resources\SteamVR_Fade.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\SteamVR\readme.txt" />
+    <None Include="Assets\ImportedAssets\VRSetup\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\Vive-Teleporter\LICENSE.txt" />
+    <None Include="Assets\ImportedAssets\VRSetup\Vive-Teleporter\README.txt" />
+    <None Include="Assets\ImportedAssets\VRSetup\Vive-Teleporter\Shader\FadeBlack.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\Vive-Teleporter\Shader\TransparentNoOverlap.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\Vive-Teleporter\Shader\ViveMovementBorder.shader" />
+    <None Include="Assets\ImportedAssets\VRSetup\Vive-Teleporter\Shader\ViveMovementGrid.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
