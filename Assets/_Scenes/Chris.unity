@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028377, g: 0.22571409, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -280,7 +280,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4387739922214604, guid: 8253c4f73dedafe4f9138c576914aa87, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1111115250043162, guid: 8253c4f73dedafe4f9138c576914aa87, type: 2}
       propertyPath: m_Name
@@ -335,7 +335,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4477194805576294, guid: 43e6f0e8a57e97c4282819212c300d48, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Assets/_Scenes/Chris.unity
       value: 8
+=======
+      value: 9
+>>>>>>> f8a583f92804f9401fd116ca8d0d959f6ce22bc6:Assets/_Scenes/RoomOne.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1621546785162600, guid: 43e6f0e8a57e97c4282819212c300d48, type: 2}
       propertyPath: m_Name
@@ -803,12 +807,12 @@ Prefab:
     - target: {fileID: 224903114965417368, guid: be540b97364be0a4890e39e62ac89ed1,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 10
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 224903114965417368, guid: be540b97364be0a4890e39e62ac89ed1,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 224587334084441624, guid: be540b97364be0a4890e39e62ac89ed1,
         type: 2}
@@ -818,7 +822,7 @@ Prefab:
     - target: {fileID: 224587334084441624, guid: be540b97364be0a4890e39e62ac89ed1,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 224587334084441624, guid: be540b97364be0a4890e39e62ac89ed1,
         type: 2}
@@ -828,12 +832,27 @@ Prefab:
     - target: {fileID: 224587334084441624, guid: be540b97364be0a4890e39e62ac89ed1,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 81297943231765820, guid: be540b97364be0a4890e39e62ac89ed1,
         type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224903114965417368, guid: be540b97364be0a4890e39e62ac89ed1,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 82
+      objectReference: {fileID: 0}
+    - target: {fileID: 224903114965417368, guid: be540b97364be0a4890e39e62ac89ed1,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013740173536, guid: be540b97364be0a4890e39e62ac89ed1,
+        type: 2}
+      propertyPath: handMoveMultiplier
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be540b97364be0a4890e39e62ac89ed1, type: 2}
@@ -909,8 +928,13 @@ GameObject:
   m_PrefabParentObject: {fileID: 1111115250043162, guid: 8253c4f73dedafe4f9138c576914aa87,
     type: 2}
   m_PrefabInternal: {fileID: 165350780}
+<<<<<<< HEAD:Assets/_Scenes/Chris.unity
 --- !u!114 &854355131
 MonoBehaviour:
+=======
+--- !u!1 &871618502
+GameObject:
+>>>>>>> f8a583f92804f9401fd116ca8d0d959f6ce22bc6:Assets/_Scenes/RoomOne.unity
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2311,6 +2335,7 @@ GameObject:
   m_PrefabParentObject: {fileID: 1111115250043162, guid: 8253c4f73dedafe4f9138c576914aa87,
     type: 2}
   m_PrefabInternal: {fileID: 1691843049}
+<<<<<<< HEAD:Assets/_Scenes/Chris.unity
 --- !u!114 &1691843056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2360,6 +2385,8 @@ MonoBehaviour:
   onGrabCollisionDelay: 0
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
+=======
+>>>>>>> f8a583f92804f9401fd116ca8d0d959f6ce22bc6:Assets/_Scenes/RoomOne.unity
 --- !u!1 &1755159890 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1883185261795400, guid: be540b97364be0a4890e39e62ac89ed1,
