@@ -20,12 +20,14 @@ public class ArrowNumberWheel : MonoBehaviour {
     {
         if(currentDirection == Direction.Up)
         {
-            anim.SetInteger("numbers", (anim.GetInteger("numbers")+1)%10);
+            if(!anim.GetCurrentAnimatorStateInfo(0).IsName("Numbers"))
+                anim.SetInteger("Numbers", (anim.GetInteger("Numbers")+1)%10);
         }
 
         else if(currentDirection == Direction.Down)
         {
-            anim.SetInteger("numbers", (anim.GetInteger("numbers") - 1) % 10);
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Numbers"))
+                anim.SetInteger("Numbers", (anim.GetInteger("Numbers") - 1) % 10);
         }      
     }
 }
