@@ -283,6 +283,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ArrowNumberWheel.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Audio\Sound.cs" />
     <Compile Include="Assets\Scripts\testPuzzle.cs" />
     <Compile Include="Assets\SolutionForCombinationLock.cs" />
     <Compile Include="Assets\VRSetup\SteamVR\Extras\SteamVR_GazeTracker.cs" />
