@@ -280,6 +280,7 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>Library\UnityAssemblies\UnityEngine.StandardEvents.dll</HintPath>
 <<<<<<< HEAD
+<<<<<<< HEAD
     </Reference>
     <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
       <HintPath>Assets\ImportedAssets\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
@@ -287,12 +288,17 @@
     <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
       <HintPath>Assets\ImportedAssets\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
 =======
+=======
+>>>>>>> 36854f490214c4fd3fd6231d362ebffab9e5c2dc
     </Reference>
     <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
       <HintPath>Assets\ImportedAssets\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
       <HintPath>Assets\ImportedAssets\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
+<<<<<<< HEAD
+>>>>>>> 36854f490214c4fd3fd6231d362ebffab9e5c2dc
+=======
 >>>>>>> 36854f490214c4fd3fd6231d362ebffab9e5c2dc
     </Reference>
   </ItemGroup>
