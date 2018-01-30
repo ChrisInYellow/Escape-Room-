@@ -6,7 +6,6 @@
 		SubShader 
 	{
 		Tags { "Queue" = "Transparent" "RenderType"="Transparent" }
-		LOD 200
 
 		CGPROGRAM
 		#pragma surface surf Standard alpha:fade
