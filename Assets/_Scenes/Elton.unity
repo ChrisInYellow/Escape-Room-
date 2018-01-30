@@ -765,7 +765,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4970287920356698, guid: d1f01a01607b42f48abe67a1a1156c86, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
         type: 2}
@@ -782,6 +782,42 @@ Prefab:
         type: 2}
       propertyPath: sounds.Array.data[0].volumeVariance
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[1].name
+      value: ButtonPress
+      objectReference: {fileID: 0}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: e62000cf266f93943b38275da0d18137, type: 3}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[1].mixerGroup
+      value: 
+      objectReference: {fileID: 243326671386348026, guid: d0a347a050090f544a34ef37b4771ef5,
+        type: 2}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[1].volume
+      value: 0.602
+      objectReference: {fileID: 0}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[1].volumeVariance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[1].pitch
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[1].pitchVariance
+      value: 0.023
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1f01a01607b42f48abe67a1a1156c86, type: 2}
@@ -2852,6 +2888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1213578218}
   - component: {fileID: 1213578219}
+  - component: {fileID: 1213578220}
   m_Layer: 0
   m_Name: Simulator
   m_TagString: Untagged
@@ -2911,6 +2948,13 @@ MonoBehaviour:
     fallbackTypeName: VRTK.SDK_FallbackController
     typeName: VRTK.SDK_SimController
     descriptionIndex: 0
+--- !u!81 &1213578220
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1213578217}
+  m_Enabled: 1
 --- !u!1001 &1228206352
 Prefab:
   m_ObjectHideFlags: 0

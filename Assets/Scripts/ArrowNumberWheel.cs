@@ -30,9 +30,12 @@ public class ArrowNumberWheel : MonoBehaviour {
         if (CD)  
             return;
         StartCoroutine(Cooldown(cooldownTimer));
-        if(currentDirection == Direction.Up)
+        
+        if (currentDirection == Direction.Up)
         {
-            if(!anim.GetCurrentAnimatorStateInfo(0).IsName("Numbers"))
+            FindObjectOfType<AudioManager>().Play("ButtonPress");
+
+            if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Numbers"))
                 anim.SetInteger("Numbers", (anim.GetInteger("Numbers")+1)%10);
 
             if (spinnerNumber == SpinnerIdentifier.One)
@@ -58,12 +61,14 @@ public class ArrowNumberWheel : MonoBehaviour {
 
         else if(currentDirection == Direction.Down)
         {
+            FindObjectOfType<AudioManager>().Play("ButtonPress");
+
             if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Numbers"))
-                if(anim.GetInteger("Numbers") < 0)
+                anim.SetInteger("Numbers", (anim.GetInteger("Numbers") - 1) % 10);
+                if(anim.GetInteger("Numbers") == -1)
                 {
                     anim.SetInteger("Numbers", 9);
                 }
-                anim.SetInteger("Numbers", (anim.GetInteger("Numbers") - 1) % 10);
             if (spinnerNumber == SpinnerIdentifier.One)
             {
 
