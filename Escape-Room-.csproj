@@ -688,6 +688,7 @@
     <Compile Include="Assets\Scripts\testPuzzle.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Art\Materials\Shader\SecretShader.shader" />
     <None Include="Assets\ImportedAssets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\ImportedAssets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\ImportedAssets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
@@ -730,7 +731,6 @@
     <None Include="Assets\ImportedAssets\VRSetup\Vive-Teleporter\Shader\TransparentNoOverlap.shader" />
     <None Include="Assets\ImportedAssets\VRSetup\Vive-Teleporter\Shader\ViveMovementBorder.shader" />
     <None Include="Assets\ImportedAssets\VRSetup\Vive-Teleporter\Shader\ViveMovementGrid.shader" />
-    <None Include="Assets\Materials\Shader\SecretShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
