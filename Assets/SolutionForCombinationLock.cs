@@ -8,6 +8,12 @@ public class SolutionForCombinationLock : MonoBehaviour
     public int[] password;
     private bool[] locks = new bool[4];
 
+
+    private void Update()
+    {
+        Solution();
+    }
+
     public void SpinnerOne(int code)
     {
         print("Spinner 1"); 
@@ -53,5 +59,4 @@ public class SolutionForCombinationLock : MonoBehaviour
             Debug.Log("Correct Code!");
         }
     }
-
 }
