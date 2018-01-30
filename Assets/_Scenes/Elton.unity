@@ -770,7 +770,7 @@ Prefab:
     - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
         type: 2}
       propertyPath: sounds.Array.data[0].name
-      value: DoorCreek
+      value: DrawerOpen
       objectReference: {fileID: 0}
     - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
         type: 2}
@@ -819,6 +819,42 @@ Prefab:
       propertyPath: sounds.Array.data[1].pitchVariance
       value: 0.023
       objectReference: {fileID: 0}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: c216c98c20907da49b406f972a688ae8, type: 3}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.613
+      objectReference: {fileID: 0}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[2].name
+      value: AmbientBackGround
+      objectReference: {fileID: 0}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 02829e43de50323499acb818f28399df, type: 3}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[2].volume
+      value: 0.428
+      objectReference: {fileID: 0}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[2].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114144779937081514, guid: d1f01a01607b42f48abe67a1a1156c86,
+        type: 2}
+      propertyPath: sounds.Array.data[2].mixerGroup
+      value: 
+      objectReference: {fileID: 243759819551758124, guid: d0a347a050090f544a34ef37b4771ef5,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1f01a01607b42f48abe67a1a1156c86, type: 2}
   m_IsPrefabParent: 0
