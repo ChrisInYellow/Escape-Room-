@@ -8,6 +8,6 @@ PhysicMaterial:
   m_Name: Test
   dynamicFriction: 0.6
   staticFriction: 0.6
-  bounciness: 0
+  bounciness: 0.15
   frictionCombine: 0
   bounceCombine: 0
