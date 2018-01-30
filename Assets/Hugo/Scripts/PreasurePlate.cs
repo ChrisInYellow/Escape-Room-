@@ -7,7 +7,7 @@ public class PreasurePlate : MonoBehaviour
     public float maxWeight;
     public float minWeight;
 
-    public float currentWeight;
+    private float currentWeight;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -31,7 +31,12 @@ public class PreasurePlate : MonoBehaviour
     {
         if (currentWeight <= maxWeight && currentWeight >= minWeight)
         {
+            //Puzzle solved
             Debug.Log("Enough weight");
+        }
+        if (currentWeight > maxWeight)
+        {
+            Debug.Log("Too heavy");
         }
     }
 }
