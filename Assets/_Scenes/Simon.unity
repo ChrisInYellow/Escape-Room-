@@ -1076,6 +1076,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 826d709a3c11ff34690403378c8623f9, type: 2}
+    - target: {fileID: 100000, guid: ed22d143ff072f34f905b8266f11a219, type: 3}
+      propertyPath: m_TagString
+      value: Pawns
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ed22d143ff072f34f905b8266f11a219, type: 3}
   m_IsPrefabParent: 0
@@ -2443,6 +2447,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b5e488fa98185d447aca554a7b55b04e, type: 2}
+    - target: {fileID: 100000, guid: b4c79e3316ae58140ab97f31527982f7, type: 3}
+      propertyPath: m_TagString
+      value: Pawns
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b4c79e3316ae58140ab97f31527982f7, type: 3}
   m_IsPrefabParent: 0
@@ -5371,6 +5379,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 826d709a3c11ff34690403378c8623f9, type: 2}
+    - target: {fileID: 100000, guid: a5587ca544c235048aa3a744bbb42967, type: 3}
+      propertyPath: m_TagString
+      value: Pawns
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a5587ca544c235048aa3a744bbb42967, type: 3}
   m_IsPrefabParent: 0
@@ -5553,6 +5565,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b5e488fa98185d447aca554a7b55b04e, type: 2}
+    - target: {fileID: 100000, guid: 7e7fe1a2d1f94d54681f1f34f6ccdea6, type: 3}
+      propertyPath: m_TagString
+      value: Pawns
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7e7fe1a2d1f94d54681f1f34f6ccdea6, type: 3}
   m_IsPrefabParent: 0
@@ -6084,6 +6100,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 826d709a3c11ff34690403378c8623f9, type: 2}
+    - target: {fileID: 100000, guid: 0b0c56ea542456246a600a48f5307dd9, type: 3}
+      propertyPath: m_TagString
+      value: Pawns
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b0c56ea542456246a600a48f5307dd9, type: 3}
   m_IsPrefabParent: 0
@@ -6117,7 +6137,7 @@ MonoBehaviour:
   operation: 0
   checkType: 1
   identifiers:
-  - 
+  - Pawns
 --- !u!4 &1556778148
 Transform:
   m_ObjectHideFlags: 0
@@ -6567,6 +6587,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b5e488fa98185d447aca554a7b55b04e, type: 2}
+    - target: {fileID: 100000, guid: 406a63068e19d384b9d89ad845f0ef7d, type: 3}
+      propertyPath: m_TagString
+      value: Pawns
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 406a63068e19d384b9d89ad845f0ef7d, type: 3}
   m_IsPrefabParent: 0
