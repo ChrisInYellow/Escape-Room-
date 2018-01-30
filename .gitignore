@@ -32,3 +32,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+*.csproj
+*.csproj
+*.meta
+*.csproj
+*.csproj
