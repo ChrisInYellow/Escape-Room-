@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028377, g: 0.22571409, b: 0.30692285, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -140,7 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd27ecd9cbf3b0d4f9f35ef5a531bbe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownTimer: 1
   currentDirection: 2
+  spinnerNumber: 2
   spinner: {fileID: 1158718799}
 --- !u!114 &8247892
 MonoBehaviour:
@@ -283,7 +285,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd27ecd9cbf3b0d4f9f35ef5a531bbe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownTimer: 1
   currentDirection: 1
+  spinnerNumber: 2
   spinner: {fileID: 1158718799}
 --- !u!114 &28692492
 MonoBehaviour:
@@ -1270,7 +1274,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd27ecd9cbf3b0d4f9f35ef5a531bbe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownTimer: 1
   currentDirection: 1
+  spinnerNumber: 1
   spinner: {fileID: 1867259054}
 --- !u!114 &698909847
 MonoBehaviour:
@@ -1402,7 +1408,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd27ecd9cbf3b0d4f9f35ef5a531bbe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownTimer: 1
   currentDirection: 2
+  spinnerNumber: 4
   spinner: {fileID: 1145904183}
 --- !u!114 &750079875
 MonoBehaviour:
@@ -1559,7 +1567,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd27ecd9cbf3b0d4f9f35ef5a531bbe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownTimer: 1
   currentDirection: 2
+  spinnerNumber: 1
   spinner: {fileID: 1867259054}
 --- !u!114 &795285428
 MonoBehaviour:
@@ -1700,7 +1710,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd27ecd9cbf3b0d4f9f35ef5a531bbe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownTimer: 1
   currentDirection: 2
+  spinnerNumber: 3
   spinner: {fileID: 1473646158}
 --- !u!114 &822957687
 MonoBehaviour:
@@ -3776,7 +3788,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd27ecd9cbf3b0d4f9f35ef5a531bbe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownTimer: 1
   currentDirection: 1
+  spinnerNumber: 4
   spinner: {fileID: 1145904183}
 --- !u!114 &1722773840
 MonoBehaviour:
@@ -3850,7 +3864,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd27ecd9cbf3b0d4f9f35ef5a531bbe8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cooldownTimer: 1
   currentDirection: 1
+  spinnerNumber: 3
   spinner: {fileID: 1473646158}
 --- !u!114 &1750807380
 MonoBehaviour:
