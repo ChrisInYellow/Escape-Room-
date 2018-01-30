@@ -796,9 +796,30 @@ Prefab:
       propertyPath: highlightObjectPrefab
       value: 
       objectReference: {fileID: 446044917}
+    - target: {fileID: 114484273258615566, guid: 159560268f41c6040ac5dbf5dc7c8e4d,
+        type: 2}
+      propertyPath: secondaryGrabActionScript
+      value: 
+      objectReference: {fileID: 850848781}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 159560268f41c6040ac5dbf5dc7c8e4d, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &850848780 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1840690461408144, guid: 159560268f41c6040ac5dbf5dc7c8e4d,
+    type: 2}
+  m_PrefabInternal: {fileID: 850848779}
+--- !u!114 &850848781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 850848780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &999108787
 Prefab:
   m_ObjectHideFlags: 0
@@ -2194,7 +2215,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4648162515314610, guid: 7fd79a7d2d3dd474dbf75d6c648ac4f2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.248
+      value: 1.204
       objectReference: {fileID: 0}
     - target: {fileID: 4648162515314610, guid: 7fd79a7d2d3dd474dbf75d6c648ac4f2, type: 2}
       propertyPath: m_LocalPosition.z

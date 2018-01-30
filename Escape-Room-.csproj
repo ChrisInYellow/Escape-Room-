@@ -683,6 +683,7 @@
     <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
     <Compile Include="Assets\ImportedAssets\VRSetup\VRTK\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
     <Compile Include="Assets\Scripts\chessBoard.cs" />
+    <Compile Include="Assets\Scripts\Desk.cs" />
     <Compile Include="Assets\Scripts\FlashLight.cs" />
     <Compile Include="Assets\Scripts\testPuzzle.cs" />
   </ItemGroup>
