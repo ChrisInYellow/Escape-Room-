@@ -35,3 +35,5 @@ sysinfo.txt
 *.csproj
 *.csproj
 *.meta
+*.csproj
+*.csproj
