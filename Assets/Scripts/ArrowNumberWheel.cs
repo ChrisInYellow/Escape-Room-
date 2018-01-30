@@ -15,11 +15,14 @@ public class ArrowNumberWheel : MonoBehaviour {
     public SpinnerIdentifier spinnerNumber = SpinnerIdentifier.None;
 
     public GameObject spinner;
+    private GameObject solutionManager; 
     Animator anim;
 
     public void Start()
     {
         anim = spinner.gameObject.GetComponent<Animator>();
+        solutionManager = transform.parent.parent.gameObject;
+        print(solutionManager);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -31,6 +34,26 @@ public class ArrowNumberWheel : MonoBehaviour {
         {
             if(!anim.GetCurrentAnimatorStateInfo(0).IsName("Numbers"))
                 anim.SetInteger("Numbers", (anim.GetInteger("Numbers")+1)%10);
+
+            if (spinnerNumber == SpinnerIdentifier.One)
+            {
+                
+                solutionManager.GetComponentInParent<SolutionForCombinationLock>().SpinnerOne(anim.GetInteger("Numbers"));
+            }
+            if (spinnerNumber == SpinnerIdentifier.Two)
+            {
+
+                solutionManager.GetComponentInParent<SolutionForCombinationLock>().SpinnerTwo(anim.GetInteger("Numbers"));
+            }
+            if (spinnerNumber == SpinnerIdentifier.Three)
+            {
+
+                solutionManager.GetComponentInParent<SolutionForCombinationLock>().SpinnerThree(anim.GetInteger("Numbers"));
+            }
+            else
+            {
+                solutionManager.GetComponentInParent<SolutionForCombinationLock>().SpinnerFour(anim.GetInteger("Numbers"));
+            }
         }
 
         else if(currentDirection == Direction.Down)
@@ -38,10 +61,30 @@ public class ArrowNumberWheel : MonoBehaviour {
             if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Numbers"))
                 if(anim.GetInteger("Numbers") < 0)
                 {
-                    anim.SetInteger("Numbers", 10);
+                    anim.SetInteger("Numbers", 9);
                 }
                 anim.SetInteger("Numbers", (anim.GetInteger("Numbers") - 1) % 10);
+            if (spinnerNumber == SpinnerIdentifier.One)
+            {
+
+                solutionManager.GetComponentInParent<SolutionForCombinationLock>().SpinnerOne(anim.GetInteger("Numbers"));
+            }
+            if (spinnerNumber == SpinnerIdentifier.Two)
+            {
+
+                solutionManager.GetComponentInParent<SolutionForCombinationLock>().SpinnerTwo(anim.GetInteger("Numbers"));
+            }
+            if (spinnerNumber == SpinnerIdentifier.Three)
+            {
+
+                solutionManager.GetComponentInParent<SolutionForCombinationLock>().SpinnerThree(anim.GetInteger("Numbers"));
+            }
+            else
+            {
+                solutionManager.GetComponentInParent<SolutionForCombinationLock>().SpinnerFour(anim.GetInteger("Numbers"));
+            }
         }      
+
     }
     IEnumerator Cooldown(float time)
     {
