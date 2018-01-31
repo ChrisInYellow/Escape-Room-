@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 33868569761606690}
   - component: {fileID: 23364145605543890}
   - component: {fileID: 95802172988347520}
+  - component: {fileID: 64766876871565420}
+  - component: {fileID: 114949434253675784}
   m_Layer: 0
   m_Name: desk
   m_TagString: Untagged
@@ -40,6 +42,7 @@ GameObject:
   - component: {fileID: 33380134995876372}
   - component: {fileID: 23211807400062100}
   - component: {fileID: 95234264322010740}
+  - component: {fileID: 64565255818314898}
   m_Layer: 0
   m_Name: drawer_1_02
   m_TagString: Untagged
@@ -156,6 +159,34 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1688383862903898}
   m_Mesh: {fileID: 4300000, guid: ca6ba0e13c21fa34db19e2030fbcbd20, type: 3}
+--- !u!64 &64565255818314898
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1947431922464960}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 6a9dc130eed10a74cae24c15dd0aae66, type: 3}
+--- !u!64 &64766876871565420
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1688383862903898}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: ca6ba0e13c21fa34db19e2030fbcbd20, type: 3}
 --- !u!95 &95234264322010740
 Animator:
   serializedVersion: 3
@@ -180,7 +211,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1688383862903898}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: ca6ba0e13c21fa34db19e2030fbcbd20, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -190,3 +221,15 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114949434253675784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1688383862903898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30c64d551510b62468bc751729d61eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawerItem: {fileID: 1320614061576292, guid: 7fd79a7d2d3dd474dbf75d6c648ac4f2, type: 2}
