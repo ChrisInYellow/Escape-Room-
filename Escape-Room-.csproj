@@ -694,6 +694,7 @@
     <Compile Include="Assets\Scripts\FlashLight.cs" />
     <Compile Include="Assets\Scripts\SolutionForCombinationLock.cs" />
     <Compile Include="Assets\Scripts\testPuzzle.cs" />
+    <Compile Include="Assets\SolutionForCombinationLock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\Materials\Shader\SecretShader.shader" />

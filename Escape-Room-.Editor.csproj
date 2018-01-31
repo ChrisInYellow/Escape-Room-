@@ -294,6 +294,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\DeskEditor.cs" />
     <Compile Include="Assets\ImportedAssets\VRSetup\SteamVR\Editor\SteamVR_Editor.cs" />
     <Compile Include="Assets\ImportedAssets\VRSetup\SteamVR\Editor\SteamVR_Preferences.cs" />
     <Compile Include="Assets\ImportedAssets\VRSetup\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
