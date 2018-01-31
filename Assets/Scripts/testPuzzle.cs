@@ -6,6 +6,7 @@ public class testPuzzle : MonoBehaviour {
 
     public bool cubeChecker = false;
     public GameObject correctCube;
+    public DoorAnimator doorAnimator; 
 
 	void Start () {
 		
@@ -26,7 +27,9 @@ public class testPuzzle : MonoBehaviour {
         if (cubeChecker ==  true)
         {
             Debug.Log("Win");
-            //opendoor
+            doorAnimator.OpenDoor(); 
+
+
         }
     }
 }

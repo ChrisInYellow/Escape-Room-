@@ -27,7 +27,9 @@ public class FlashLight : MonoBehaviour {
     public void batteryInput()
     {
         batteryIsIn = true;
+           
         Activate();
+        
     }
     
 }

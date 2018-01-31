@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - pawns
-  - Battery
+  - PaperPuzzle
+  - PapperPuzzle01
+  - PapperPuzzle02
+  - PapperPuzzle03
+  - PapperPuzzle04
   layers:
   - Default
   - TransparentFX
