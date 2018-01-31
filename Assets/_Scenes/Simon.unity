@@ -4548,6 +4548,11 @@ Transform:
   m_Father: {fileID: 1255861148}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &428973950 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1587602180963074, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 666225997}
 --- !u!1 &435657522
 GameObject:
   m_ObjectHideFlags: 0
@@ -4696,6 +4701,11 @@ Transform:
   m_Father: {fileID: 1892456739}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &465787746 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1384746914293964, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 666225997}
 --- !u!1001 &465836017
 Prefab:
   m_ObjectHideFlags: 0
@@ -5478,6 +5488,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 524695109}
   m_Mesh: {fileID: 4300000, guid: 0b0c56ea542456246a600a48f5307dd9, type: 3}
+--- !u!1 &531636805 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1538727058887424, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 666225997}
 --- !u!1 &533000812
 GameObject:
   m_ObjectHideFlags: 0
@@ -7706,6 +7721,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 759163987}
   m_Mesh: {fileID: 4300000, guid: 0b0c56ea542456246a600a48f5307dd9, type: 3}
+--- !u!1 &761580151 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013941130086, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 666225997}
 --- !u!4 &761580152 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000011401111930, guid: be540b97364be0a4890e39e62ac89ed1,
@@ -11698,12 +11718,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPopulateObjectReferences: 1
-  actualBoundaries: {fileID: 0}
-  actualHeadset: {fileID: 0}
-  actualLeftController: {fileID: 0}
-  actualRightController: {fileID: 0}
-  modelAliasLeftController: {fileID: 0}
-  modelAliasRightController: {fileID: 0}
+  actualBoundaries: {fileID: 761580151}
+  actualHeadset: {fileID: 428973950}
+  actualLeftController: {fileID: 531636805}
+  actualRightController: {fileID: 1877817684}
+  modelAliasLeftController: {fileID: 465787746}
+  modelAliasRightController: {fileID: 1755159890}
   cachedSystemSDKInfo:
     baseTypeName: VRTK.SDK_BaseSystem
     fallbackTypeName: VRTK.SDK_FallbackSystem
@@ -17857,6 +17877,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.03, y: 0.03, z: 0.15}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1755159890 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1883185261795400, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 666225997}
 --- !u!1 &1769739838 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1000010066341254, guid: 5d323709f0cbd454196647d9d8f2dd84,
@@ -18792,6 +18817,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1864375105}
   m_Mesh: {fileID: 4300000, guid: 0b0c56ea542456246a600a48f5307dd9, type: 3}
+--- !u!1 &1877817684 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1391022766006510, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 666225997}
 --- !u!1 &1887248191
 GameObject:
   m_ObjectHideFlags: 0
