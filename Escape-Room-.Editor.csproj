@@ -259,6 +259,12 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
+      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
+      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -278,6 +284,9 @@
       <HintPath>Library\UnityAssemblies\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
+<<<<<<< HEAD
+      <HintPath>C:/Users/Hugo B Cremer/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+=======
       <HintPath>Library\UnityAssemblies\UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
@@ -285,6 +294,7 @@
     </Reference>
     <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
       <HintPath>Assets\ImportedAssets\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
+>>>>>>> 96e010dabc5e948d83c61ea6e8226b1167b47208
     </Reference>
   </ItemGroup>
   <ItemGroup>
